@@ -1,4 +1,4 @@
-#labels Featured
+#labels Featured,Phase-Support
 == Info Menu ==
 
 In the upper right corner you will find  the info menu. You can see the current time and the date there. By pressing the speaker icon you can control the sound volume of Sally.
