@@ -70,8 +70,7 @@ There are some special characters you must beware of. This special characters mu
 
 || *Special Character* || *Meaning* ||
 ||\n||Creates a line break. eg: Test it\nNew Line=Testen\nNeue Zeile ||
-||%s||Is replaced with a string at runtime: We have found %s images=Wir haben %s Bilder gefunden
-||
+||%s||Is replaced with a string at runtime: We have found %s images=Wir haben %s Bilder gefunden||
 
 This behaviour is the same for the sally .lang file and all plugin .lang files.
 
