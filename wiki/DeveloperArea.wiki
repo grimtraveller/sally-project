@@ -30,4 +30,4 @@ You can create a Developer Account on the Sally Homepage. Scroll down to the bot
 =Technical Views=
 We also have some technical explanations of how we have implemented thing into Sally:
 
-[[Technical: Facebook Connection]]
+[[TechnicalFacebookConnection Technical: Facebook Connection]]
