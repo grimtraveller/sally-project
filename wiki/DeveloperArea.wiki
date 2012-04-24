@@ -5,13 +5,13 @@ This side is only available in english.
 
 ----
 
-[[How to create a theme]]
+[HowToCreateATheme How to create a theme]
 
-[[How to create a language]]
+[HowToCreateALanguage How to create a language]
 
-[[How to create a keyboard layout]]
+[HowToCreateAKeyboardLayout How to create a keyboard layout]
 
-[[How to use the SallyAPI]]
+[HowToUseTheSallyAPI How to use the SallyAPI]
 
 
 
