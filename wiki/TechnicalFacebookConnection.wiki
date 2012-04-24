@@ -17,18 +17,18 @@ We are using the Facebook scope 'offline_access' and 'publish_stream'.
 
 Here the single steps which are done to get the access token:
 
- *To get the access token, Sally will first generate a unique "Sally Key" for this machine.
- *Than Sally opens a browser window with an URL to the Facebook server. This URL includes the following parameters
-  *redirect_uri: A URL the user is redirect to when he gave his allowance that Sally can interact with Facebook. This URL also includes the unique "Sally Key" generated on the client.
-  *client_id: The Facebook id for the Sally application
-  *scope: offline_access,publish_stream (see above)
- *On the Facebook page the user will need to login and "Allow" Sally to interact with the users Facebook profile.
- *After giving the allowance, the user will be redirected to a page send in the parameter "redirect_uri". This will bring the user to http://www.sally-project.org/facebookAccess.php .
- *Here the php script fetches the access token from the Facebook server by sending the "client_secret" (post to the php page) and some other variables like client_id.
- *Now we have the "Sally Key" (part of the URL Facebook redirected the user to) and the access key. This data will be stored in the database - finally :D We only need to bring the access token to the Sally client ;)
- *Sally itself will query the homepage sending the "Sally Key". This will be done in a loop all 5 seconds. The loop will end when:
-  *Either the server sends back the access token - the server searches in the database for the same "Sally Key" send from the client and if he has a access token for tis key
-  *Or the user clicks in the Sally 'Facebook Connection' dialog the "Cancel" button
+ * To get the access token, Sally will first generate a unique "Sally Key" for this machine.
+ * Than Sally opens a browser window with an URL to the Facebook server. This URL includes the following parameters
+  * redirect_uri: A URL the user is redirect to when he gave his allowance that Sally can interact with Facebook. This URL also includes the unique "Sally Key" generated on the client.
+  * client_id: The Facebook id for the Sally application
+  * scope: offline_access,publish_stream (see above)
+ * On the Facebook page the user will need to login and "Allow" Sally to interact with the users Facebook profile.
+ * After giving the allowance, the user will be redirected to a page send in the parameter "redirect_uri". This will bring the user to http://www.sally-project.org/facebookAccess.php .
+ * Here the php script fetches the access token from the Facebook server by sending the "client_secret" (post to the php page) and some other variables like client_id.
+ * Now we have the "Sally Key" (part of the URL Facebook redirected the user to) and the access key. This data will be stored in the database - finally :D We only need to bring the access token to the Sally client ;)
+ * Sally itself will query the homepage sending the "Sally Key". This will be done in a loop all 5 seconds. The loop will end when:
+  * Either the server sends back the access token - the server searches in the database for the same "Sally Key" send from the client and if he has a access token for tis key
+  * Or the user clicks in the Sally 'Facebook Connection' dialog the "Cancel" button
 
 
 <font color="#22AA22">
