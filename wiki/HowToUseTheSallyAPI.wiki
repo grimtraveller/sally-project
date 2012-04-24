@@ -1,0 +1,28 @@
+#labels Featured
+Here you will find informations about the C++ SallyAPI.
+
+==Visual Studio Setup==
+
+Before you start developing an application for Sally you need to Setup your IDE. Here you will find a small guide what you need to download and install: [VisualStudioSetupInstallSallyAPI VisualStudio Setup / Install SallyAPI]
+
+
+
+==Download SallyAPI==
+
+====Current SallyAPI v. 1.0.0.1====
+
+This API Version is for Sally 1.0.x.x
+
+[http://fileserver.sally-project.de/dev/doc/1.0.0.1 SallyAPI Docu]
+
+[http://code.google.com/p/sally-project/downloads/detail?name=sally_api_1.0.0.1_patch1.zip Download latest SallyAPI]
+
+
+
+==Tutorials==
+
+ * [CreatingTheFirstApplication Creating the first Application]
+
+ * [CreatingCasicControls Creating basic Controls]
+
+ * [CreatingAInstallationPackage Creating a Installation Package]
