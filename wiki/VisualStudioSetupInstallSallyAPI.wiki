@@ -18,7 +18,7 @@ To create a plugin for Sally you will need the DirectX SDK installed.
 
 http://www.microsoft.com/downloads/details.aspx?FamilyID=2c7da5fb-ffbb-4af6-8c66-651cbd28ca15&displaylang=en
 
-After installation open VisualStudio and select in the menubar:
+After installation open Visual Studio and select in the menubar:
 
 Tools->Options
 Then on the left: Projects and Solutions->VC++ Directories.
