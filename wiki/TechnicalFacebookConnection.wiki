@@ -1,3 +1,4 @@
+#labels Phase-Design
 Facebook provides a Rest API and the newer Graph API, which is the successor of the Rest API. While implementing the Facebook interface into Sally, we decided to use the new Graph API. More informations about the Graph API can be found here:
 
 Wikipedia Page: http://de.wikipedia.org/wiki/Facebook#Open_Graph
